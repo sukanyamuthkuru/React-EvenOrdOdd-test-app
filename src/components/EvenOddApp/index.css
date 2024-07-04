@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.outer-container {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  border-radius: 10px;
+  min-width: 60vw;
+}
+.heading {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+.para1 {
+  color: #334155;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+button {
+  color: black;
+  border-style: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: white;
+}
+.para2 {
+  color: #1e293b;
+}
